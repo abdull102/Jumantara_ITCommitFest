@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit";
+  --animate-pulse: pulse 5s cubic-bezier(0.2, 0, 0.6, 1) infinite;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overscroll-behavior-y: none;
+}
